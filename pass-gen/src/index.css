@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  width: 700px;
+  height: 200px;
+}
+
+.selector {
+  /* margin-right: 150px; */
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.generate-btn {
+  cursor: pointer;
+  background-color: rgb(11, 101, 165);
+  padding: 13px 23px 13px 23px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.generate-btn:hover {
+  background-color: rgb(29, 151, 238);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.398);
+}
+
+.password {
+  margin-top: 50px;
+  display: flex;
+}
+
+.text-input {
+  width: 120px;
+  height: 40px;
+  font-size: 22px;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#password-tag {
+  font-weight: bold;
+}
+
+#password {
+  margin-left: 15px;
+}
