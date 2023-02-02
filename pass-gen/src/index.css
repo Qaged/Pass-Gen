@@ -1,77 +1,57 @@
 body {
+  background-color: #9ec9e3;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
 }
 
-/* App.css */
-.App {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: #e6f2ff;
-  padding: 20px;
+h1 {
+  font-size: 28px;
+  color: #0091c7;
+  text-align: center;
 }
 
-/* Selector.css */
-.selector {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
+div {
+  text-align: center;
 }
 
-.check-input {
-  margin: 10px 0;
-}
-
-.text-input {
-  margin: 10px 0;
+input[type="checkbox"] {
+  margin: 8px;
   padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  font: 18px;
 }
-
-/* GenerateBtn.css */
-.generate {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
-}
-
-.generate-btn {
-  background-color: #0000ff;
-  color: #fff;
+input[type="number"] {
+  border: 1px solid #0091c7;
+  margin: 8px;
   padding: 10px;
-  border-radius: 5px;
+  font-size: 18px;
+  width: 180px;
+}
+
+input[type="number"] {
+  border-radius: 10px;
   border: none;
-  font-size: 1rem;
-  font-weight: bold;
+}
+
+button {
+  background-color: #0091c7;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px;
+  border: none;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.generate-btn:hover {
-  background-color: #4f4fc1;
-  box-shadow: 2px 2px 10px #00000061;
+button:hover {
+  background-color: #006b9f;
+  box-shadow: 0 0 10px #006b9f;
 }
 
-/* Password.css */
-.password {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 10px 0;
-  padding: 20px;
-}
-
-#password-tag {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-#password {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #0000ff;
+p {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #0091c7;
+  text-align: center;
 }
